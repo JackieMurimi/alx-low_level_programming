@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
+ * main - prints in lower and upper case
  *
  * Return: Always 0 (Success)
  */
@@ -11,20 +11,11 @@ int main(void)
 {
 	char c;
 
-	char d;
-
-	c = 'a';
-	d = 'A';
-	while
-		(c <= 'z') {
+	for (c = 'a'; c <= 'z'; c++)
 			putchar(c);
-			c++;
-		}
-	while
-		(c <= 'Z') {
+	for (d = 'A'; d <= 'Z'; d++)
 			putchar(d);
-			d++;
-		}
+
 	putchar('\n');
 	return (0);
 }
