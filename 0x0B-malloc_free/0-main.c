@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * simple_print_buffer - prints buffer in hexa
  * @buffer: the address of memory to print
@@ -8,7 +9,6 @@
  *
  * Return: Nothing.
  */
-
 void simple_print_buffer(char *buffer, unsigned int size)
 {
 	unsigned int i;
@@ -29,6 +29,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 	}
 	printf("\n");
 }
+
 /**
  * main - check the code for ALX School students.
  *
